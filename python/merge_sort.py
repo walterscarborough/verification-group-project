@@ -2,12 +2,12 @@ __author__ = 'AWood'
 
 
 def merge_sort(array_in):
-    # If array is None (null) or size == 0
-    if not array_in:
+    # If array is None (null), return None (null)
+    if array_in is None:
         return None
 
-    # If array is size 1, it is already sorted
-    if len(array_in) == 1:
+    # If array size is 0 or 1, it is already sorted
+    if len(array_in) < 2:
         return array_in
 
     # Divide and conquer
