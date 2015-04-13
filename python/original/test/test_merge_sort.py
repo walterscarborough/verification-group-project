@@ -3,6 +3,7 @@ __author__ = 'awood'
 from unittest import TestCase
 from merge_sort import merge_sort
 
+
 class TestMergeSort(TestCase):
     def test_ms_null(self):
         test_input = None

@@ -3,6 +3,7 @@ __author__ = 'awood'
 from unittest import TestCase
 from quick_sort import quick_sort
 
+
 class TestQuickSort(TestCase):
     def test_qs_null(self):
         test_input = None

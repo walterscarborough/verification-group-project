@@ -3,6 +3,7 @@ __author__ = 'awood'
 from unittest import TestCase
 from bubble_sort import bubble_sort
 
+
 class TestBubbleSort(TestCase):
     def test_bs_null(self):
         test_input = None
