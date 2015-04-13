@@ -10,7 +10,7 @@ def bubble_sort(array_in):
     if len(array_in) < 2:
         return array_in
 
-    # Begin outer loop
+    # Begin sorting
     for i in range(len(array_in)):
         for j in range(0, len(array_in) - (i + 1)):
             if array_in[j] > array_in[j + 1]:
