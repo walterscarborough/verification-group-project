@@ -54,3 +54,10 @@ target/
 
 # PyCharm Files
 .idea
+
+# Cocomo Reports
+.cocomoignore
+basic-cocomo-report*.txt
+
+# VCS History
+history_stats.csv
