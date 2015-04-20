@@ -1,0 +1,17 @@
+digraph G{
+    rankdir = LR
+	"Path[]\nA0 >? A1" -> "Path[A0 > A1]\nA0 >? A2"
+	"Path[]\nA0 >? A1" -> "Path[A0 <= A1]\nA1 >? A2"
+	"Path[A0 > A1]\nA0 >? A2" -> "Path[A0 > A1, A0 > A2]\nA1 >? A2"
+	"Path[A0 > A1]\nA0 >? A2" -> "Path[A0 > A1, A0 <= A2]\nA1 >? A0"
+	"Path[A0 <= A1]\nA1 >? A2" -> "Path[A0 <= A1, A1 > A2]\nA0 >? A2"
+	"Path[A0 <= A1]\nA1 >? A2" -> "Path[A0 <= A1, A1 <= A2]\nA0 >? A1"
+	"Path[A0 > A1, A0 > A2]\nA1 >? A2" -> "Path[A0 > A1, A0 > A2, A1 <= A2]\nEND. Sorted = [A1, A2, A0]"
+	"Path[A0 > A1, A0 > A2]\nA1 >? A2" -> "Path[A0 > A1, A0 > A2, A1 > A2]\nEND. Sorted = [A1, A0, A2]"
+	"Path[A0 > A1, A0 <= A2]\nA1 >? A0" -> "Path[A0 > A1, A0 <= A2, A1 <= A0]\nEND. Sorted = [A1, A0, A2]"
+	"Path[A0 > A1, A0 <= A2]\nA1 >? A0" -> "Path[A0 > A1, A0 <= A2, A1 > A0]\nEND. Sorted = [A1, A2, A0]"
+	"Path[A0 <= A1, A1 > A2]\nA0 >? A2" -> "Path[A0 <= A1, A1 > A2, A0 <= A2]\nEND. Sorted = [A0, A2, A1]"
+	"Path[A0 <= A1, A1 > A2]\nA0 >? A2" -> "Path[A0 <= A1, A1 > A2, A0 > A2]\nEND. Sorted = [A0, A1, A2]"
+	"Path[A0 <= A1, A1 <= A2]\nA0 >? A1" -> "Path[A0 <= A1, A1 <= A2, A0 <= A1]\nEND. Sorted = [A0, A1, A2]"
+	"Path[A0 <= A1, A1 <= A2]\nA0 >? A1" -> "Path[A0 <= A1, A1 <= A2, A0 > A1]\nEND. Sorted = [A0, A2, A1]"
+}
