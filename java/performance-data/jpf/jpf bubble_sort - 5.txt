@@ -1,0 +1,1794 @@
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1729 sat:980 unsat:749
+
+numeric PC: constraint # = 7
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1730 sat:980 unsat:750
+
+numeric PC: constraint # = 6
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1731 sat:981 unsat:750
+
+numeric PC: constraint # = 7
+val3_3_SYMINT > val5_5_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1732 sat:981 unsat:751
+
+
+**************
+[1, 4, 2, 3, 5]
+
+[1, 4, 2, 3, 5]constraint # = 6
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 6
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 6
+val1_1_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] <= val5_5_SYMINT[-1] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-1]
+Return is:  String@185[-2147483648]
+***********************************
+numeric PC: constraint # = 6
+val4_4_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1733 sat:982 unsat:751
+
+numeric PC: constraint # = 6
+val4_4_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1734 sat:982 unsat:752
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1735 sat:983 unsat:752
+
+numeric PC: constraint # = 6
+val3_3_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1736 sat:983 unsat:753
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1737 sat:984 unsat:753
+
+numeric PC: constraint # = 6
+val1_1_SYMINT > val2_2_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1738 sat:984 unsat:754
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1739 sat:985 unsat:754
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1740 sat:985 unsat:755
+
+numeric PC: constraint # = 6
+val4_4_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1741 sat:986 unsat:755
+
+numeric PC: constraint # = 6
+val4_4_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1742 sat:986 unsat:756
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1743 sat:987 unsat:756
+
+numeric PC: constraint # = 6
+val3_3_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1744 sat:987 unsat:757
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1745 sat:988 unsat:757
+
+numeric PC: constraint # = 6
+val1_1_SYMINT > val2_2_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1746 sat:988 unsat:758
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1747 sat:989 unsat:758
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1748 sat:989 unsat:759
+
+numeric PC: constraint # = 6
+val4_4_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1749 sat:990 unsat:759
+
+numeric PC: constraint # = 6
+val4_4_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1750 sat:990 unsat:760
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1751 sat:991 unsat:760
+
+numeric PC: constraint # = 6
+val3_3_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1752 sat:991 unsat:761
+
+
+**************
+[1, 2, 4, 3, 5]
+
+[1, 2, 4, 3, 5]constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] <= val5_5_SYMINT[-1] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-2]
+Return is:  String@185[-2147483648]
+***********************************
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1753 sat:992 unsat:761
+
+numeric PC: constraint # = 4
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1754 sat:993 unsat:761
+
+numeric PC: constraint # = 4
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1755 sat:994 unsat:761
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val2_2_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1756 sat:994 unsat:762
+
+numeric PC: constraint # = 4
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1757 sat:995 unsat:762
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1758 sat:995 unsat:763
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1759 sat:996 unsat:763
+
+numeric PC: constraint # = 5
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1760 sat:997 unsat:763
+
+numeric PC: constraint # = 5
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1761 sat:998 unsat:763
+
+numeric PC: constraint # = 6
+val3_3_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1762 sat:998 unsat:764
+
+numeric PC: constraint # = 5
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1763 sat:999 unsat:764
+
+numeric PC: constraint # = 6
+val1_1_SYMINT > val2_2_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1764 sat:999 unsat:765
+
+numeric PC: constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1765 sat:1000 unsat:765
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1766 sat:1001 unsat:765
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1767 sat:1002 unsat:765
+
+numeric PC: constraint # = 7
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1768 sat:1002 unsat:766
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1769 sat:1003 unsat:766
+
+numeric PC: constraint # = 7
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1770 sat:1003 unsat:767
+
+numeric PC: constraint # = 7
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1771 sat:1004 unsat:767
+
+numeric PC: constraint # = 7
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1772 sat:1005 unsat:767
+
+numeric PC: constraint # = 7
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1773 sat:1006 unsat:767
+
+numeric PC: constraint # = 8
+val1_1_SYMINT > val2_2_SYMINT &&
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1774 sat:1006 unsat:768
+
+numeric PC: constraint # = 7
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1775 sat:1007 unsat:768
+
+numeric PC: constraint # = 8
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1776 sat:1007 unsat:769
+
+numeric PC: constraint # = 7
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1777 sat:1008 unsat:769
+
+numeric PC: constraint # = 8
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1778 sat:1008 unsat:770
+
+
+**************
+[5, 1, 2, 3, 4]
+
+[5, 1, 2, 3, 4]constraint # = 7
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 7
+val1_1_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 7
+val1_1_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val2_2_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val4_4_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val2_2_SYMINT[-1]
+Return is:  String@185[-2147483648]
+***********************************
+numeric PC: constraint # = 8
+val5_5_SYMINT <= val2_2_SYMINT &&
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1779 sat:1009 unsat:770
+
+numeric PC: constraint # = 8
+val5_5_SYMINT > val2_2_SYMINT &&
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1780 sat:1009 unsat:771
+
+numeric PC: constraint # = 7
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1781 sat:1010 unsat:771
+
+numeric PC: constraint # = 8
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1782 sat:1010 unsat:772
+
+numeric PC: constraint # = 7
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1783 sat:1011 unsat:772
+
+numeric PC: constraint # = 8
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1784 sat:1011 unsat:773
+
+
+**************
+[1, 5, 2, 3, 4]
+
+[1, 5, 2, 3, 4]constraint # = 7
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 7
+val1_1_SYMINT <= val5_5_SYMINT &&
+val2_2_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 7
+val1_1_SYMINT[-2] <= val5_5_SYMINT[-2] &&
+val2_2_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val4_4_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-1]
+Return is:  String@185[-2147483648]
+***********************************
+numeric PC: constraint # = 7
+val5_5_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1785 sat:1012 unsat:773
+
+numeric PC: constraint # = 7
+val5_5_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1786 sat:1012 unsat:774
+
+numeric PC: constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1787 sat:1013 unsat:774
+
+numeric PC: constraint # = 7
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1788 sat:1013 unsat:775
+
+numeric PC: constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1789 sat:1014 unsat:775
+
+numeric PC: constraint # = 7
+val1_1_SYMINT > val2_2_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1790 sat:1014 unsat:776
+
+numeric PC: constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1791 sat:1015 unsat:776
+
+numeric PC: constraint # = 7
+val2_2_SYMINT > val5_5_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1792 sat:1015 unsat:777
+
+numeric PC: constraint # = 7
+val5_5_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1793 sat:1016 unsat:777
+
+numeric PC: constraint # = 7
+val5_5_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1794 sat:1016 unsat:778
+
+numeric PC: constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1795 sat:1017 unsat:778
+
+numeric PC: constraint # = 7
+val3_3_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1796 sat:1017 unsat:779
+
+
+**************
+[1, 2, 5, 3, 4]
+
+[1, 2, 5, 3, 4]constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 6
+val2_2_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 6
+val2_2_SYMINT[-2] <= val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val4_4_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-2]
+Return is:  String@185[-2147483648]
+***********************************
+numeric PC: constraint # = 6
+val5_5_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1797 sat:1018 unsat:779
+
+numeric PC: constraint # = 6
+val5_5_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1798 sat:1018 unsat:780
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1799 sat:1019 unsat:780
+
+numeric PC: constraint # = 6
+val1_1_SYMINT > val2_2_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1800 sat:1019 unsat:781
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1801 sat:1020 unsat:781
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1802 sat:1020 unsat:782
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1803 sat:1021 unsat:782
+
+numeric PC: constraint # = 6
+val3_3_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1804 sat:1021 unsat:783
+
+numeric PC: constraint # = 6
+val5_5_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1805 sat:1022 unsat:783
+
+numeric PC: constraint # = 6
+val5_5_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1806 sat:1022 unsat:784
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1807 sat:1023 unsat:784
+
+numeric PC: constraint # = 6
+val1_1_SYMINT > val2_2_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1808 sat:1023 unsat:785
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1809 sat:1024 unsat:785
+
+numeric PC: constraint # = 6
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1810 sat:1024 unsat:786
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1811 sat:1025 unsat:786
+
+numeric PC: constraint # = 6
+val3_3_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1812 sat:1025 unsat:787
+
+numeric PC: constraint # = 6
+val5_5_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1813 sat:1026 unsat:787
+
+numeric PC: constraint # = 6
+val5_5_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1814 sat:1026 unsat:788
+
+
+**************
+[1, 2, 3, 5, 4]
+
+[1, 2, 3, 5, 4]constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val3_3_SYMINT <= val5_5_SYMINT &&
+val4_4_SYMINT > val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val3_3_SYMINT[-2] <= val5_5_SYMINT[-2] &&
+val4_4_SYMINT[-1] > val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-2]
+Return is:  String@185[-2147483648]
+***********************************
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1815 sat:1027 unsat:788
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val2_2_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1816 sat:1027 unsat:789
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1817 sat:1028 unsat:789
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1818 sat:1028 unsat:790
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1819 sat:1029 unsat:790
+
+numeric PC: constraint # = 5
+val3_3_SYMINT > val4_4_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1820 sat:1029 unsat:791
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1821 sat:1030 unsat:791
+
+numeric PC: constraint # = 5
+val4_4_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1822 sat:1030 unsat:792
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1823 sat:1031 unsat:792
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val2_2_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1824 sat:1031 unsat:793
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1825 sat:1032 unsat:793
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1826 sat:1032 unsat:794
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1827 sat:1033 unsat:794
+
+numeric PC: constraint # = 5
+val3_3_SYMINT > val4_4_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1828 sat:1033 unsat:795
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1829 sat:1034 unsat:795
+
+numeric PC: constraint # = 5
+val4_4_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1830 sat:1034 unsat:796
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1831 sat:1035 unsat:796
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val2_2_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1832 sat:1035 unsat:797
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1833 sat:1036 unsat:797
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1834 sat:1036 unsat:798
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1835 sat:1037 unsat:798
+
+numeric PC: constraint # = 5
+val3_3_SYMINT > val4_4_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1836 sat:1037 unsat:799
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1837 sat:1038 unsat:799
+
+numeric PC: constraint # = 5
+val4_4_SYMINT > val5_5_SYMINT &&
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> false
+
+### PCs: total:1838 sat:1038 unsat:800
+
+
+**************
+[1, 2, 3, 4, 5]
+
+[1, 2, 3, 4, 5]constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val4_4_SYMINT <= val5_5_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val4_4_SYMINT[-2] <= val5_5_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-2]
+Return is:  String@185[-2147483648]
+***********************************
+
+====================================================== Method Summaries
+Inputs: val1_1_SYMINT,val2_2_SYMINT,val3_3_SYMINT,val4_4_SYMINT,val5_5_SYMINT
+
+BubbleSort.runSort(2,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,0,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,1,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,1,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,1,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-2,-2,-2)  --> Return Value: java.lang.String@185
+Inputs: val1_1_SYMINT,val2_2_SYMINT,val3_3_SYMINT,val4_4_SYMINT,val5_5_SYMINT
+
+BubbleSort.runSort(2,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,-2,1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,-1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,-1,1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,-2,0,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,0,1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,1,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,-1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,-1,0,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,0,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-2,-1,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(1,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,1,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,1,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,-1,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,-2,0)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,-1,0,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,0,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-2,-1,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(0,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,0,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,0,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,0,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-1,-2,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-1,-2,-1)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-1,-1,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-1,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-1,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-2,-1,-2)  --> Return Value: java.lang.String@185
+BubbleSort.runSort(-2,-2,-2,-2,-2)  --> Return Value: java.lang.String@185
+
+====================================================== Method Summaries (HTML)
+<h1>Test Cases Generated by Symbolic JavaPath Finder for BubbleSort.runSort (Path Coverage) </h1>
+<table border=1>
+<tr><td>val1_1_SYMINT</td><td>val2_2_SYMINT</td><td>val3_3_SYMINT</td><td>val4_4_SYMINT</td><td>val5_5_SYMINT</td><td>RETURN</td></tr>
+<tr><td>2</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>1</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>1</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>1</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+</table>
+<h1>Test Cases Generated by Symbolic JavaPath Finder for BubbleSort.runSort (Path Coverage) </h1>
+<table border=1>
+<tr><td>val1_1_SYMINT</td><td>val2_2_SYMINT</td><td>val3_3_SYMINT</td><td>val4_4_SYMINT</td><td>val5_5_SYMINT</td><td>RETURN</td></tr>
+<tr><td>2</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>1</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>1</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>1</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+<tr><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@185</td></tr>
+</table>
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:00:02
+states:             new=239,visited=0,backtracked=239,end=120
+search:             maxDepth=11,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=119
+heap:               new=4674,released=3482,maxLive=359,gcCycles=239
+instructions:       77030
+max memory:         123MB
+loaded code:        classes=61,methods=1390
+
+====================================================== search finished: 15/04/19 18:34
+

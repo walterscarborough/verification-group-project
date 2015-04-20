@@ -1,0 +1,39 @@
+vagrant@packer-debian-7:~/pyex$ /usr/bin/time -v python3 pyexz3.py -g --cvc /home/vagrant/src/merge_sort_wrapper.py
+PyExZ3 (Python Exploration with Z3)
+Exploring merge_sort_wrapper.merge_sort_wrapper
+[('y', 0), ('x', 0), ('z', 0)]
+(0, 0, 0)
+[('y', 1), ('x', 0), ('z', 0)]
+(0, 0, 1)
+[('y', 0), ('x', 1), ('z', 0)]
+(0, 0, 1)
+[('y', 1), ('x', 1), ('z', 0)]
+(0, 1, 1)
+[('y', 0), ('x', 1), ('z', 1)]
+(0, 1, 1)
+[('y', 1), ('x', 2), ('z', 0)]
+(0, 1, 2)
+merge_sort_wrapper.py contains no expected_result function
+	Command being timed: "python3 pyexz3.py -g --cvc /home/vagrant/src/merge_sort_wrapper.py"
+	User time (seconds): 0.14
+	System time (seconds): 0.12
+	Percent of CPU this job got: 74%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 38232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9930
+	Voluntary context switches: 1875
+	Involuntary context switches: 32
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

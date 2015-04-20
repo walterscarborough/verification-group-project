@@ -1,0 +1,1181 @@
+Executing command: java -jar /Users/walter/Documents/eclipse-workspace/jpf-core/build/RunJPF.jar +shell.port=4242 /Users/walter/Documents/eclipse-workspace/jpf-symbc/src/examples/MergeSort.jpf 
+Running Symbolic PathFinder ...
+symbolic.dp=choco
+symbolic.string_dp_timeout_ms=0
+symbolic.string_dp=none
+symbolic.choco_time_bound=30000
+symbolic.max_pc_length=2147483647
+symbolic.max_pc_msec=0
+symbolic.min_int=-2
+symbolic.max_int=2
+symbolic.min_double=-8.0
+symbolic.max_double=7.0
+JavaPathfinder core system v8.0 (rev 2+) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+MergeSort.main()
+
+====================================================== search started: 15/04/19 18:37
+numeric PC: constraint # = 1
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:1 sat:1 unsat:0
+
+numeric PC: constraint # = 1
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:2 sat:2 unsat:0
+
+numeric PC: constraint # = 2
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:3 sat:3 unsat:0
+
+numeric PC: constraint # = 2
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:4 sat:4 unsat:0
+
+numeric PC: constraint # = 3
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:5 sat:5 unsat:0
+
+numeric PC: constraint # = 3
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:6 sat:6 unsat:0
+
+numeric PC: constraint # = 4
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:7 sat:7 unsat:0
+
+numeric PC: constraint # = 4
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:8 sat:8 unsat:0
+
+
+**************
+[4, 3, 2, 1]
+
+[4, 3, 2, 1]constraint # = 4
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val2_2_SYMINT[0] > val3_3_SYMINT[-1] &&
+val2_2_SYMINT[0] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[1] > val2_2_SYMINT[0]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:9 sat:9 unsat:0
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:10 sat:10 unsat:0
+
+
+**************
+[4, 2, 3, 1]
+
+[4, 2, 3, 1]constraint # = 5
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[0] > val3_3_SYMINT[-1] &&
+val2_2_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val2_2_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[0] > val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[4, 2, 1, 3]
+
+[4, 2, 1, 3]constraint # = 5
+val1_1_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[0] <= val3_3_SYMINT[0] &&
+val2_2_SYMINT[-1] <= val3_3_SYMINT[0] &&
+val2_2_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[0] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[0] > val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 4
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:11 sat:11 unsat:0
+
+numeric PC: constraint # = 4
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:12 sat:12 unsat:0
+
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:13 sat:13 unsat:0
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:14 sat:14 unsat:0
+
+
+**************
+[2, 4, 3, 1]
+
+[2, 4, 3, 1]constraint # = 5
+val1_1_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[0] > val3_3_SYMINT[-1] &&
+val1_1_SYMINT[0] > val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[0] > val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[2, 4, 1, 3]
+
+[2, 4, 1, 3]constraint # = 5
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] > val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[2, 1, 4, 3]
+
+[2, 1, 4, 3]constraint # = 4
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val1_1_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val3_3_SYMINT[0] > val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 3
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:15 sat:15 unsat:0
+
+numeric PC: constraint # = 3
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:16 sat:16 unsat:0
+
+numeric PC: constraint # = 4
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:17 sat:17 unsat:0
+
+numeric PC: constraint # = 4
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:18 sat:18 unsat:0
+
+
+**************
+[3, 4, 2, 1]
+
+[3, 4, 2, 1]constraint # = 4
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val2_2_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val1_1_SYMINT[0] > val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:19 sat:19 unsat:0
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:20 sat:20 unsat:0
+
+
+**************
+[3, 2, 4, 1]
+
+[3, 2, 4, 1]constraint # = 5
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[0] > val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[0] > val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[3, 2, 1, 4]
+
+[3, 2, 1, 4]constraint # = 5
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[0] <= val4_4_SYMINT[0] &&
+val2_2_SYMINT[-1] <= val4_4_SYMINT[0] &&
+val2_2_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[0] &&
+val1_1_SYMINT[0] > val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 4
+val1_1_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:21 sat:21 unsat:0
+
+numeric PC: constraint # = 4
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:22 sat:22 unsat:0
+
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:23 sat:23 unsat:0
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+### PCs: total:24 sat:24 unsat:0
+
+
+**************
+[2, 3, 4, 1]
+
+[2, 3, 4, 1]constraint # = 5
+val1_1_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] > val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[2, 3, 1, 4]
+
+[2, 3, 1, 4]constraint # = 5
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val1_1_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[2, 1, 3, 4]
+
+[2, 1, 3, 4]constraint # = 4
+val1_1_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val1_1_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val1_1_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-1] &&
+val3_3_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 2
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:25 sat:25 unsat:0
+
+numeric PC: constraint # = 2
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:26 sat:26 unsat:0
+
+numeric PC: constraint # = 3
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:27 sat:27 unsat:0
+
+numeric PC: constraint # = 3
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:28 sat:28 unsat:0
+
+numeric PC: constraint # = 4
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:29 sat:29 unsat:0
+
+numeric PC: constraint # = 4
+val1_1_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:30 sat:30 unsat:0
+
+
+**************
+[4, 3, 1, 2]
+
+[4, 3, 1, 2]constraint # = 4
+val1_1_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val1_1_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val1_1_SYMINT[0] > val3_3_SYMINT[-1] &&
+val1_1_SYMINT[0] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[0] <= val2_2_SYMINT[0]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:31 sat:31 unsat:0
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:32 sat:32 unsat:0
+
+
+**************
+[4, 1, 3, 2]
+
+[4, 1, 3, 2]constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[0] > val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] <= val2_2_SYMINT[0]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[4, 1, 2, 3]
+
+[4, 1, 2, 3]constraint # = 5
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT > val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] <= val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 4
+val2_2_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:33 sat:33 unsat:0
+
+numeric PC: constraint # = 4
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:34 sat:34 unsat:0
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:35 sat:35 unsat:0
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:36 sat:36 unsat:0
+
+
+**************
+[1, 4, 3, 2]
+
+[1, 4, 3, 2]constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[0] > val3_3_SYMINT[-1] &&
+val2_2_SYMINT[0] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[0]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[1, 4, 2, 3]
+
+[1, 4, 2, 3]constraint # = 5
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val3_3_SYMINT &&
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[-1] <= val3_3_SYMINT[-1] &&
+val2_2_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[1, 2, 4, 3]
+
+[1, 2, 4, 3]constraint # = 4
+val2_2_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val2_2_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val3_3_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val2_2_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val3_3_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 3
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:37 sat:37 unsat:0
+
+numeric PC: constraint # = 3
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:38 sat:38 unsat:0
+
+numeric PC: constraint # = 4
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:39 sat:39 unsat:0
+
+numeric PC: constraint # = 4
+val1_1_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:40 sat:40 unsat:0
+
+
+**************
+[3, 4, 1, 2]
+
+[3, 4, 1, 2]constraint # = 4
+val1_1_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val1_1_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val1_1_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-1] <= val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:41 sat:41 unsat:0
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:42 sat:42 unsat:0
+
+
+**************
+[3, 1, 4, 2]
+
+[3, 1, 4, 2]constraint # = 5
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[0] > val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val2_2_SYMINT[0]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[3, 1, 2, 4]
+
+[3, 1, 2, 4]constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT > val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-1] <= val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+numeric PC: constraint # = 4
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:43 sat:43 unsat:0
+
+numeric PC: constraint # = 4
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:44 sat:44 unsat:0
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:45 sat:45 unsat:0
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+### PCs: total:46 sat:46 unsat:0
+
+
+**************
+[1, 3, 4, 2]
+
+[1, 3, 4, 2]constraint # = 5
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT > val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[-1] > val4_4_SYMINT[-2] &&
+val2_2_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[1, 3, 2, 4]
+
+[1, 3, 2, 4]constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 5
+val2_2_SYMINT <= val4_4_SYMINT &&
+val2_2_SYMINT > val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 5
+val2_2_SYMINT[-1] <= val4_4_SYMINT[-1] &&
+val2_2_SYMINT[-1] > val3_3_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-1] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-1]
+Return is:  String@18e[-2147483648]
+***********************************
+
+**************
+[1, 2, 3, 4]
+
+[1, 2, 3, 4]constraint # = 4
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT
+
+**************
+
+numeric PC: constraint # = 4
+val2_2_SYMINT <= val3_3_SYMINT &&
+val1_1_SYMINT <= val3_3_SYMINT &&
+val3_3_SYMINT <= val4_4_SYMINT &&
+val1_1_SYMINT <= val2_2_SYMINT -> true
+
+*************Summary***************
+PC is:constraint # = 4
+val2_2_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val3_3_SYMINT[-2] &&
+val3_3_SYMINT[-2] <= val4_4_SYMINT[-2] &&
+val1_1_SYMINT[-2] <= val2_2_SYMINT[-2]
+Return is:  String@18e[-2147483648]
+***********************************
+
+====================================================== Method Summaries
+Inputs: val1_1_SYMINT,val2_2_SYMINT,val3_3_SYMINT,val4_4_SYMINT
+
+MergeSort.runSort(1,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,0,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-2,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,0,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-2,0)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-1,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-1,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-1,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-2,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-1,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,0,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-1,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-1,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-1,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-2,-2,-2)  --> Return Value: java.lang.String@18e
+Inputs: val1_1_SYMINT,val2_2_SYMINT,val3_3_SYMINT,val4_4_SYMINT
+
+MergeSort.runSort(1,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,0,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-2,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,0,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,-1,-2,0)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-2,-1,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(0,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-1,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,0,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-1,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-2,-1,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-1,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,0,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-1,-1,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-1,-2,-2)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-1,-2,-1)  --> Return Value: java.lang.String@18e
+MergeSort.runSort(-2,-2,-2,-2)  --> Return Value: java.lang.String@18e
+
+====================================================== Method Summaries (HTML)
+<h1>Test Cases Generated by Symbolic JavaPath Finder for MergeSort.runSort (Path Coverage) </h1>
+<table border=1>
+<tr><td>val1_1_SYMINT</td><td>val2_2_SYMINT</td><td>val3_3_SYMINT</td><td>val4_4_SYMINT</td><td>RETURN</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+</table>
+<h1>Test Cases Generated by Symbolic JavaPath Finder for MergeSort.runSort (Path Coverage) </h1>
+<table border=1>
+<tr><td>val1_1_SYMINT</td><td>val2_2_SYMINT</td><td>val3_3_SYMINT</td><td>val4_4_SYMINT</td><td>RETURN</td></tr>
+<tr><td>1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>0</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>0</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>-1</td><td>-2</td><td>0</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-2</td><td>-1</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>0</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>0</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-1</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-2</td><td>-1</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>0</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-1</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-1</td><td>-2</td><td>-1</td><td>Return Value: java.lang.String@18e</td></tr>
+<tr><td>-2</td><td>-2</td><td>-2</td><td>-2</td><td>Return Value: java.lang.String@18e</td></tr>
+</table>
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:00:00
+states:             new=47,visited=0,backtracked=47,end=24
+search:             maxDepth=6,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=23
+heap:               new=1233,released=788,maxLive=359,gcCycles=47
+instructions:       13957
+max memory:         123MB
+loaded code:        classes=61,methods=1390
+
+====================================================== search finished: 15/04/19 18:38
+
