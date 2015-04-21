@@ -1,0 +1,17 @@
+target=MergeSort
+
+
+symbolic.min_int=-2
+symbolic.max_int=2
+
+symbolic.method=MergeSort.runSort(sym#sym#sym);
+     
+
+
+classpath=${jpf-symbc}/build/examples
+
+symbolic.debug=true
+listener = .symbc.SymbolicListener
+
+
+vm.storage.class=nil
