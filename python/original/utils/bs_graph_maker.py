@@ -61,9 +61,9 @@ fout = open('..\\utils\\bs_depth_3.dot', 'w')
 fout.write('digraph G{\n')
 fout.write('\t"Let A = Input Array\\nA0, A1, A2 = A[0], A[1], A[2]" -> "A =? None";\n')
 fout.write('\t"A =? None" -> "Path[A == None]\\nEND. Sorted = None";\n')
-fout.write('\t"A =? None" -> "Path[A != None]\\nlen(A) >? 2";\n')
-fout.write('\t"Path[A != None]\\nlen(A) >? 2" -> "Path[A != None, len(A) <= 2]\\nEND. Sorted = A"\n')
-fout.write('\t"Path[A != None]\\nlen(A) >? 2" -> "Path[A != None, len(A) > 2]\\nA0 >? A1"\n')
+fout.write('\t"A =? None" -> "Path[A != None]\\nlen(A) <? 2";\n')
+fout.write('\t"Path[A != None]\\nlen(A) <? 2" -> "Path[A != None, len(A) < 2]\\nEND. Sorted = A"\n')
+fout.write('\t"Path[A != None]\\nlen(A) <? 2" -> "Path[A != None, len(A) >= 2]\\nA0 >? A1"\n')
 
 # Main branches with edges
 for source, target in edges:
