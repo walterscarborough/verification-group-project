@@ -1,0 +1,22 @@
+vagrant@packer-debian-7:~/pyex$ python3 pyexz3.py -g /home/vagrant/src/bubble_sort_wrapper.py
+PyExZ3 (Python Exploration with Z3)
+Exploring bubble_sort_wrapper.bubble_sort_wrapper
+[('y', 0), ('x', 0), ('z', 0)]
+C0  -> C3  -> C5  -> C5  -> C5  -> C6
+(0, 0, 0)
+[('y', 0), ('x', 2), ('z', 0)]
+C0  -> C3  -> C4  -> C4  -> C5  -> C6
+(0, 0, 2)
+[('y', 9), ('x', 2), ('z', 0)]
+C0  -> C3  -> C5  -> C4  -> C4  -> C6
+(0, 2, 9)
+[('y', 0), ('x', 2), ('z', 8)]
+C0  -> C3  -> C4  -> C5  -> C5  -> C6
+(0, 2, 8)
+[('y', 1), ('x', 2), ('z', 0)]
+C0  -> C3  -> C4  -> C4  -> C4  -> C6
+(0, 1, 2)
+[('y', 9), ('x', 2), ('z', 8)]
+C0  -> C3  -> C5  -> C4  -> C5  -> C6
+(2, 8, 9)
+bubble_sort_wrapper test passed <---

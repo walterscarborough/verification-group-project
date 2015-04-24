@@ -1,0 +1,16 @@
+target=QuickSort
+
+
+symbolic.min_int=-2
+symbolic.max_int=2
+
+symbolic.method=QuickSort.runSort(sym#sym#sym);
+     
+
+classpath=${jpf-symbc}/build/examples
+
+symbolic.debug=true
+
+listener = .symbc.SymbolicListener
+
+vm.storage.class=nil
