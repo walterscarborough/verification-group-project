@@ -59,7 +59,7 @@ public class BubbleSort {
         currentNode.nextNode = arrayIn2Node;
         currentNode = arrayIn2Node;
         
-        for(int i=0; i < arrayIn.length-1; i++){
+        for(int i=0; i < arrayIn.length - (i + 1); i++){
             for(int j=0; j < arrayIn.length-1; j++) {
                 if (arrayIn[j] > arrayIn[j+1]) {
                     int temp = arrayIn[j+1];
